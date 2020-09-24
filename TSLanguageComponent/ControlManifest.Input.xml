@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="DigitalTransformationOffice" constructor="TSLanguageComponent" version="1.2.0" display-name-key="TSLanguageComponent" description-key="TSLanguageComponent description" control-type="standard">
+    <property name="language" display-name-key="language_Display_Key" description-key="language_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>
